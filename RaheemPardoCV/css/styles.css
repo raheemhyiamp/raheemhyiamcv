@@ -1,0 +1,63 @@
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+
+/* Styles for the body */
+
+body {
+	font-family: 'Gloock', serif;
+	color: #5A3502;
+	background-color: #f8f8fc;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+    background-color: #DBCEB2;
+}
+
+.resume-main {
+	background-color: #C4AD85;
+}
+
+.resume-aside {
+	font-family:'Gloock', serif;
+	color: #DBCEB2;
+	background-color: #5A3502;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: #5A3502;
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+.language-progress {
+    color: #DBCEB2;
+}
+
+.bg-warning {
+	background-color:  #DBCEB2 !important;
+}
+
+.language-level {
+	color:#5A3502;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
